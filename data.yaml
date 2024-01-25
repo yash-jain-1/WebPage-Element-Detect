@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['button', 'checkbox', 'dropdown', 'logo', 'text']
+
+roboflow:
+  workspace: new-qbwrv
+  project: webpage-rijlz
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/new-qbwrv/webpage-rijlz/dataset/3
